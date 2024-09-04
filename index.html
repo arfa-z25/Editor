@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo-Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>UPLOAD YOUR <strong>IMAGES AND EDIT</strong> THEM AT YOUR OWN CHOICE</h2>
+    <div class="section">
+        <div class = "input-section">
+            <!--NO1 BRIGHTNESS-->
+            <label for="brightness">Brightness</label>
+            <input id="brightness" type="range" name="brightness" min="0" max="200" value="100" data-sizing="%">
+             
+             <!--NO2 CONTRAST-->
+            <label for="contrast">Contrast</label>
+            <input id="contrast" type="range" name="contrast" min="0" max="200" value="100" data-sizing="%">
+
+             <!--NO3 CONTRAST-->
+            <label for="blurr">Blurr</label>
+            <input id="blurr" type="range" name="blurr" min="0" max="100" value="0" data-sizing="px">
+
+             <!--NO4 CONTRAST-->
+            <label for="radius">Border-radius</label>
+            <input id="radius" type="range" name="radius" min="0" max="50" value="0" data-sizing="px">
+             
+            <!--NO5 CONTRAST-->
+            <label for="saturation">Saturation</label>
+            <input id="saturation" type="range" name="saturation" min="0" max="200" value="100" data-sizing="%">
+             
+            <!--NO6 CONTRAST-->
+            <label for="rotate">Hue Rotate</label>
+            <input id="rotate" type="range" name="rotate" min="0" max="360" value="0" data-sizing="deg">
+
+        </div>
+        
+        <div class="selectd-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5QkNsyx4700RcvaYiHlM2u6w7gUkH2M4k0HeXWSWuqtQmcrQuYo0jc5PElIbP2BtOnQ0&usqp=CAU" alt="SelectedImage" id = "selected">
+    </div></div>
+    <div class = "uploadimage">
+        <label for="file"> <img src="https://cdn-icons-png.flaticon.com/512/126/126477.png" id="upload-icon"></label>
+        <p>Uplaod Your Images</p>
+       
+        <input type="file" name="file-src" id="file" accept="image/*" style="display: none;">
+    </div>
+
+  
+
+    <script src="script.js"></script> 
+        
+    
+</body>
+</html>

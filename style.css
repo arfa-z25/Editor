@@ -1,0 +1,70 @@
+:root {
+    --brightness: 100%; 
+    --contrast: 100%; 
+    --blur: 0px; 
+    --radius: 0px; 
+    --saturation: 100%; 
+    --rotate: 0deg; 
+}
+
+h2
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 17%;
+    margin-top : 3%;
+}
+strong
+{
+    color:chocolate
+}
+.uploadimage
+{
+   
+    width : 12%;
+    
+    border : 2px solid black;
+    border-radius: 10px;
+    margin-left: 44%;
+    margin-top: 7%;
+}
+p
+{
+    margin-left: 20%;
+    border-bottom: none;
+    margin-top: none;
+}
+#upload-icon
+{
+    width : 20%;
+    height : 20%;
+    margin-left: 35%;
+    margin-bottom: none;
+  
+   
+}
+#selected
+{
+    margin-left: 40%;
+    width : 20% ; 
+    height : 20%;
+    margin-top: 2%;
+    filter: brightness(var(--brightness)) contrast(var(--contrast)) blur(var(--blur)) saturate(var(--saturation)) hue-rotate(var(--rotate));
+    border-radius: var(--radius);
+
+}
+.section 
+{
+    display: flex;
+    flex-direction: column;
+}
+.input-section
+{
+    position : absolute;
+    display : flex ; 
+    flex-direction: column;
+    gap : 25px;
+   margin-left: 5%;
+   margin-top : 5%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
